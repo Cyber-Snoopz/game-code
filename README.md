@@ -2,6 +2,7 @@
 
 This is the a Web3 Game made using Unity and Moralis. It's an universe simulation in the metaverse for educational purpose. There's also a quiz mode in this.
 <hr>
+
 # Todo
 
 - Add VR in it
