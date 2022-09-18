@@ -4,6 +4,6 @@ This is the a Web3 Game made using Unity and Moralis. It's an universe simulatio
 <hr>
 # Todo
 
-~ Add VR in it
-~ Make the multiplayer game mode where players from all around the world can interact with each other while exploring in the galaxies of the universe.
+- Add VR in it
+- Make the multiplayer game mode where players from all around the world can interact with each other while exploring in the galaxies of the universe.
  
