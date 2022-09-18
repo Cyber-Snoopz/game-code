@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Authentication Scene.unity
+    guid: 92eccd561246ae74ab7912032438426b
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8b7854810d7c36b41b94c230cf40211a
+  - enabled: 1
+    path: Assets/Scenes/Galaxies.unity
+    guid: 1f0d292f456e7fe40a680e0ea936a638
+  - enabled: 1
+    path: Assets/Scenes/Solar System.unity
+    guid: daf0eae0ed9998c4cba808ffcef03bf6
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: 2a53faeedbf87864da2dc3c59854b80a
+  m_configObjects: {}

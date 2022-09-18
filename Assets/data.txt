@@ -1,0 +1,52 @@
+{"questions":[
+    {
+        "id":1,
+        "questionText":"Which is the smallest planet of our solar system?",
+        "option1":"Earth",
+        "option2":"Mercury",
+        "option3":"Venus",
+        "option4":"Jupiter",
+        "correct":2,
+        "level":1
+    },
+    {
+        "id":2,
+        "questionText":"Which is the largest planet of our solar system?",
+        "option1":"Earth",
+        "option2":"Mars",
+        "option3":"Venus",
+        "option4":"Jupiter",
+        "correct":4,
+        "level":1
+    },
+    {
+        "id":3,
+        "questionText":"What is the radius of earth?",
+        "option1":"6316",
+        "option2":"6314",
+        "option3":"6317",
+        "option4":"6333",
+        "correct":3,
+        "level":2
+    },
+    {
+        "id":4,
+        "questionText":"Which is a black body?",
+        "option1":"Sun",
+        "option2":"Earth",
+        "option3":"Venus",
+        "option4":"Racism",
+        "correct":1,
+        "level":2
+    },
+    {
+        "id":1,
+        "questionText":"What is associated with a black hole?",
+        "option1":"Singularity",
+        "option2":"Low Gravitational Pull",
+        "option3":"Generator for Stars",
+        "option4":"No Racism",
+        "correct":1,
+        "level":3
+    }
+]}
