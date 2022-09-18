@@ -17,6 +17,7 @@ public class UiManager : MonoBehaviour
         if(!gameplayCanvas || !addressText || !authCanvas)
             Debug.Log("UiManager: Missing UI elements");
 
+        Cursor.lockState = CursorLockMode.None;
         isAuthenticated = false;
         prevIsNotAuthenticated = false;
         gameplayCanvas.SetActive(false);

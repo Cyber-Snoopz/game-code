@@ -33,6 +33,7 @@ public class GalaxySelect : MonoBehaviour
 
     void OnMouseDown()
     {
-        SceneLoader.instance.LoadNextSceneWithCut();
+        if(gameObject.tag == "MilkyWay")
+            SceneLoader.instance.LoadNextSceneWithCut();
     }
 }

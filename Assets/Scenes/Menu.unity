@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00042438373, g: 0.0022772984, b: 0.010957093, a: 1}
+  m_IndirectSpecularColor: {r: 0.00043983766, g: 0.0022875215, b: 0.011022442, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -521,7 +521,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6628245908806557426}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 6628245908806557427}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77c167f85ff1d394b95e5a2556d3c3f7, type: 3}
@@ -772,11 +772,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AuthenticationKit
       objectReference: {fileID: 0}
-    - target: {fileID: 8041329933434875251, guid: f2862104ab332b54aa92a907ffd3c6bc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2862104ab332b54aa92a907ffd3c6bc, type: 3}
 --- !u!1001 &1952906774
@@ -936,7 +931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1001 &5196163474617515775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1054,6 +1049,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CutCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9058373649472314617, guid: 1f96e87b1278c7748b6597415b915bf0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f96e87b1278c7748b6597415b915bf0, type: 3}
 --- !u!4 &5207855815955763303
@@ -1090,21 +1090,97 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6010081740946729290, guid: 696e3c604d9e45347b28ead800f2983f,
+    - target: {fileID: 1110017478, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: helpContainer
+      value: 
+      objectReference: {fileID: 6010081741001048381}
+    - target: {fileID: 1797354805, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6010081741001048382}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClickHelp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuUIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797354807, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124034687, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 43559715243680333, guid: 696e3c604d9e45347b28ead800f2983f,
+        type: 3}
+      propertyPath: m_text
+      value: 'Creator of the game:  Debajyoti Dhar (Azulul)
+
+        Server Creator:
+        Yash Goyal
+
+        Game Website Creator: Ayush Borage
+
+        Music by:
+        Azulul
+
+        The purpose of the game was to create a simulation of our
+        universe and to further enhance knowledge we added a quiz mode as well.
+
+        To
+        know more about us or our game go visit :
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377340786214583795, guid: 696e3c604d9e45347b28ead800f2983f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010081740837217404, guid: 696e3c604d9e45347b28ead800f2983f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010081740837217404, guid: 696e3c604d9e45347b28ead800f2983f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010081740837217404, guid: 696e3c604d9e45347b28ead800f2983f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6628245908806557427}
+    - target: {fileID: 6010081740837217404, guid: 696e3c604d9e45347b28ead800f2983f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6010081740946729290, guid: 696e3c604d9e45347b28ead800f2983f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 710652741}
-    - target: {fileID: 6010081740946729290, guid: 696e3c604d9e45347b28ead800f2983f,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadNextSceneWithCut
-      objectReference: {fileID: 0}
     - target: {fileID: 6010081741509076661, guid: 696e3c604d9e45347b28ead800f2983f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1220,13 +1296,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gameplay Menu Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 6010081742038516985, guid: 696e3c604d9e45347b28ead800f2983f,
+    - target: {fileID: 7604606204364314135, guid: 696e3c604d9e45347b28ead800f2983f,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696e3c604d9e45347b28ead800f2983f, type: 3}
+--- !u!1 &6010081741001048381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2124034687, guid: 696e3c604d9e45347b28ead800f2983f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6010081741001048380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6010081741001048382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1110017478, guid: 696e3c604d9e45347b28ead800f2983f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6010081741001048380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110017477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d4dc8af387c574eb87ecc422c10bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6231843179832643705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,3 +1511,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0607c36daf815d24887eff721700c4b9, type: 3}
+--- !u!1 &6628245908806557427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6628245909435040196, guid: 0607c36daf815d24887eff721700c4b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 6628245908806557426}
+  m_PrefabAsset: {fileID: 0}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00042438373, g: 0.0022772984, b: 0.010957093, a: 1}
+  m_IndirectSpecularColor: {r: 0.00042340683, g: 0.0022639597, b: 0.010930238, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2050,26 +2050,6 @@ PrefabInstance:
       propertyPath: planetDistanceFromCamera
       value: 
       objectReference: {fileID: 560077154}
-    - target: {fileID: 8637832398165190463, guid: fb73908d82848d045a67f1680555b846,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8637832398165190463, guid: fb73908d82848d045a67f1680555b846,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8637832398165190463, guid: fb73908d82848d045a67f1680555b846,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8637832398873085215, guid: fb73908d82848d045a67f1680555b846,
-        type: 3}
-      propertyPath: rotationSpeed
-      value: 50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb73908d82848d045a67f1680555b846, type: 3}
 --- !u!1 &3753970114040239337
